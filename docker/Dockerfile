@@ -1,7 +1,7 @@
 # vrc-embed dockerfile.
 # NOTE: This file expects the build context to be set to the vrc-embed source code directory.
 
-ARG PYTHON_VERSION=3.12
+ARG PYTHON_VERSION=3.14
 FROM python:${PYTHON_VERSION}-alpine as base
 
 # ...configurable args start here...
